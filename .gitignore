@@ -1,4 +1,4 @@
 # Ignore project idea files
 /AquaCensusFolder
 # Ignore .gitignore
-/.gitignore
+.gitignore
