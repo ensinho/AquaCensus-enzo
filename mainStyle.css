@@ -1,3 +1,8 @@
 #login-div{
 	background-color:white;
 }
+#waves-collumn-login{
+	background-image: url('srcImages/wavesImg.png');
+	width: 54%;
+	height: 1024px;
+}
