@@ -17,8 +17,10 @@ table{
 	position: relative;
 	left:15px;
 	width: 500px;
-	margin: auto;
 	background-color: red;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
 }
 .register-label{
 	font-size: 22px;
