@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>Favoritos - AquaCensus</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+  </head>
+  <body>
+    <section class="favorites-page">
+      
+      <!-- Seção Header -->
+      <div class="header">
+        <span class="registro-logo">AQUACENSUS</span>
+
+        <input type="text" class="search-bar" placeholder="Buscar...">
+        <div class="user-info">
+          <img class="profile-img" src="../public/srcImages/profile-image.png" alt="Profile Image">
+          <div class="user-details">
+            <!-- Username Clicável -->
+            <span class="user-name" id="user-name">João da Silva</span>
+            <span class="user-role">Pesquisador</span>
+            
+            <!-- Menu Dropdown -->
+            <div class="dropdown" id="dropdown">
+              <ul>
+                <li class="favorito-btn" id="favorite-btn">★ Favoritos</li>
+                <li class="coletas-btn" id="coletas-btn">Coletas</li>
+                <li id="especie-btn" id="especie-btn">Cadastrar</li>
+                <li class="conta-btn" id="conta-btn">Conta</li>
+                <li>Tema</li>
+                <li>Fonte</li>
+                <li>Gerar Código</li>
+                <li>Desativar conta</li>
+                <li class="sair-btn" id="sair-btn">Sair</li> <!-- Alterei -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="registro-container">
+
+      
+        <div class="registro-body">
+          <div class="registro-foto-container">
+            <div class="registro-foto-principal"></div>
+
+            <div class="registro-info">
+                <label class="titulo-campo">Nome</label>
+                <input type="text" class="cadastro-campo" placeholder="">   
+                
+                <label class="titulo-campo">Cargo</label>
+                <input type="text" class="cadastro-campo" placeholder="">      
+             </div>
+
+          </div>
+		  <div class="registro-detalhes">
+            
+      
+            <div class="registro-info-cadastro">
+              <label class="titulo-campo2">Email</label>
+              <input type="text" class="cadastro-campo2" placeholder="">  
+            </div>
+      
+            <div class="registro-info-cadastro">
+              <label class="titulo-campo2">Laboratório</label>
+              <input type="text" class="cadastro-campo2" placeholder="">  
+            </div>
+      
+            <div class="registro-info-cadastro">
+              <label class="titulo-campo2">Senha</label>
+              <input type="text" class="cadastro-campo2" placeholder="">  
+            </div>
+
+            <div class="registro-info-cadastro">
+                <label class="titulo-campo2">Código de cadastro</label>
+                <input type="text" class="cadastro-campo2" placeholder="">  
+              </div>
+      
+
+              <div class="div-btn-cadastrar-especie">
+              <button type="button" class="cadastrar-button" >Cadastrar-se</button>
+            </div>
+      
+           
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <div class="footer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<html></html>
+  <head>
+    <title>Favoritos - AquaCensus</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+  </head>
+  <body>
+    <section class="favorites-page">
+      
+      <!-- Seção Header -->
+      <div class="header">
+        <span class="registro-logo" id="registro-logo">AQUACENSUS</span>
+
+        <input type="text" class="search-bar" placeholder="Buscar...">
+        <div class="user-info">
+          <img class="profile-img" src="../public/srcImages/profile-image.png" alt="Profile Image">
+          <div class="user-details">
+            <!-- Username Clicável -->
+            <span class="user-name" id="user-name">João da Silva</span>
+            <span class="user-role">Pesquisador</span>
+            
+            <!--  Menu Dropdown -->
+            <div class="dropdown" id="dropdown">
+              <ul>
+                <li class="favorito-btn" id="favorite-btn">★ Favoritos</li>
+                <li class="coletas-btn" id="coletas-btn">Coletas</li>
+                <li id="especie-btn" id="especie-btn">Cadastrar</li>
+                <li class="conta-btn" id="conta-btn">Conta</li>
+                <li>Tema</li>
+                <li>Fonte</li>
+                <li>Gerar Código</li>
+                <li>Desativar conta</li>
+                <li class="sair-btn" id="sair-btn">Sair</li> <!-- Alterei -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="registro-container">
+
+      
+        <div class="registro-body">
+          <div class="registro-foto-container">
+            <div class="registro-foto-principal" id="foto-principal"></div>
+            <input type="file" id="input-foto-principal" accept="image/*" style="display: none">
+            
+            <div class="registro-fotos-secundarias">
+              <div class="registro-foto-secundaria" id="foto-secundaria-1"></div>
+              <input type="file" id="input-foto-secundaria-1" accept="image/*" style="display: none">
+
+              <div class="registro-foto-secundaria" id="foto-secundaria-2"></div>
+              <input type="file" id="input-foto-secundaria-2" accept="image/*" style="display: none">
+            </div>
+
+            <div class="registro-info">
+                <label class="titulo-campo" >Nome Científico</label>
+                <input type="text" class="cadastro-campo" id="nome-cientifico-input" placeholder="Nome Científico da Espécie">             
+             </div>
+          </div>
+      
+          <div class="registro-detalhes">
+            
+            <div class="registro-info">
+              <label class="titulo-campo2">Número da Embarcação</label>
+              <input type="text" class="cadastro-campo2" id="numero-embarcacao-input" placeholder="Número da Embarcação">  
+            </div>
+      
+            <div class="registro-info">
+              <label class="titulo-campo2">Data</label>
+              <input type="text" class="cadastro-campo2" id="data-input" placeholder="Data">  
+            </div>
+      
+            <div class="registro-info">
+              <label class="titulo-campo2">Local de Pesca</label>
+              <input type="text" class="cadastro-campo2" id="local-pesca-input" placeholder="Local de Pesca">  
+            </div>
+      
+            <div class="registro-info">
+              <label class="titulo-campo2">Nome Comum</label>
+              <input type="text" class="cadastro-campo2" id="nome-comum-input" placeholder="Nome Comum da Espécie">  
+            </div>
+      
+            <div class="medidas">
+                <div class="row-nomes">
+                    <label class="titulo-campo2">Peso (kg)</label>
+                    <label class="titulo-campo3">Comprimento (cm)</label>
+                </div>
+
+              <div class="row-campos">
+                <input type="text" class="cadastro-campo-medida" id="peso-input" placeholder="Peso">  
+               <input type="text" class="cadastro-campo-medida" id="comprimento-input" placeholder="Comprimento">  
+              </div>
+            </div>
+            
+            <div class="div-btn-cadastrar-especie">
+              <button type="button" class="cadastrar-button" id="cadastrar-especie-button">Cadastrar Espécie </button>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <div class="footer"></div>
+
+    <script src="../public/js/script.js"></script>
+  </body>
+</html>
